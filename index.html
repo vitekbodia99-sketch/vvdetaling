@@ -1,288 +1,78 @@
-<!-- HEADER -->
-<header id="header">
-    <nav>
-        <a href="#" class="logo">
-            <span class="v">V</span><span class="amp">&</span><span class="v">V</span>
-            <span class="detailing">DETAILING STUDIO</span>
-        </a>
-        <ul class="nav-links">
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#services">Услуги</a></li>
-            <li><a href="#gallery">Работы</a></li>
-            <li><a href="#contact">Контакты</a></li>
-        </ul>
-        <div class="burger" onclick="toggleMenu()">
-            <i class="fas fa-bars"></i>
-        </div>
-    </nav>
-</header>
-
-<!-- MOBILE MENU -->
-<div class="mobile-menu" id="mobileMenu">
-    <div class="close-btn" onclick="toggleMenu()">
-        <i class="fas fa-times"></i>
-    </div>
-    <a href="#about" onclick="toggleMenu()">О нас</a>
-    <a href="#services" onclick="toggleMenu()">Услуги</a>
-    <a href="#gallery" onclick="toggleMenu()">Работы</a>
-    <a href="#contact" onclick="toggleMenu()">Контакты</a>
-</div>
-
-<!-- HERO -->
-<section class="hero">
-    <div class="hero-content">
-        <div class="hero-logo-circle">
-            <div class="v-v"><span class="v">V</span><span class="amp">&</span><span class="v">V</span></div>
-            <div class="detailing-text">DETAILING</div>
-            <div class="studio-text">STUDIO</div>
-            <div class="borisov-text">BORISOV</div>
-        </div>
-        <h1>ПРОФЕССИОНАЛЬНЫЙ УХОД ЗА ВАШИМ АВТО</h1>
-        <a href="#services" class="hero-btn">НАШИ УСЛУГИ</a>
-    </div>
-    <div class="scroll-indicator">
-        <i class="fas fa-chevron-down"></i>
-    </div>
-</section>
-
-<!-- ABOUT -->
-<section class="about" id="about">
-    <div class="section-title fade-in">
-        <h2>О <span>нас</span></h2>
-        <div class="line"></div>
-        <p>Профессиональная детейлинг-студия в Борисове</p>
-    </div>
-    <div class="about-grid">
-        <div class="about-text fade-in">
-            <h3>Почему выбирают <span>V&V Detailing</span>?</h3>
-            <p>Мы — команда профессионалов, которая любит своё дело. Используем только премиальные материалы и современное оборудование для достижения идеального результата.</p>
-            <p>Каждый автомобиль для нас — это индивидуальный проект. Мы подходим к работе с максимальной ответственностью и вниманием к деталям.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
-        </div>
-        <div class="about-stats fade-in">
-            <div class="stat-card">
-                <div class="number">500+</div>
-                <div class="label">Довольных клиентов</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">3+</div>
-                <div class="label">Года опыта</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">100%</div>
-                <div class="label">Гарантия качества</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">24/7</div>
-                <div class="label">Поддержка</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SERVICES -->
-<section class="services" id="services">
-    <div class="section-title fade-in">
-        <h2>Наши <span>услуги</span></h2>
-        <div class="line"></div>
-        <p>Полный спектр детейлинг-услуг для вашего автомобиля</p>
-    </div>
-    <div class="services-grid">
-        <!-- Химчистка салона -->
-        <div class="service-card fade-in">
-            <div class="service-icon">
-                <i class="fas fa-spray-can-sparkles"></i>
-            </div>
-            <h3>Химчистка салона</h3>
-            <p>Глубокая профессиональная чистка всех поверхностей салона: сиденья, потолок, двери, пластик, ковры. Удаление пятен, запахов и загрязнений любой сложности.</p>
-            <div class="price">от 150 BYN <span>/ комплекс</span></div>
-        </div>
-
-        <!-- Полировка фар -->
-        <div class="service-card fade-in">
-            <div class="service-icon">
-                <i class="fas fa-lightbulb"></i>
-            </div>
-            <h3>Полировка фар</h3>
-            <p>Восстановление прозрачности и блеска фар. Удаление помутнений, царапин и желтизны. Защита специальным составом для длительного эффекта.</p>
-            <div class="price">от 60 BYN <span>/ пара</span></div>
-        </div>
-
-        <!-- Тонировка стёкол -->
-        <div class="service-card fade-in">
-            <div class="service-icon">
-                <i class="fas fa-car-side"></i>
-            </div>
-            <h3>Тонировка стёкол</h3>
-            <p>Профессиональная тонировка автомобильных стёкол качественными плёнками. Защита от солнца, ультрафиолета и посторонних взглядов. Гарантия на работу.</p>
-            <div class="price">от 200 BYN <span>/ авто</span></div>
-        </div>
-    </div>
-</section>
-
-<!-- GALLERY -->
-<section class="gallery" id="gallery">
-    <div class="section-title fade-in">
-        <h2>Наши <span>работы</span></h2>
-        <div class="line"></div>
-        <p>Результаты, которые говорят сами за себя</p>
-    </div>
-    <div class="gallery-grid fade-in">
-        <div class="gallery-item">
-            <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a1a,#2a2a2a);display:flex;align-items:center;justify-content:center;">
-                <i class="fas fa-spray-can-sparkles" style="font-size:3rem;color:var(--pink);opacity:0.5;"></i>
-            </div>
-            <div class="overlay"><i class="fas fa-search-plus"></i></div>
-        </div>
-        <div class="gallery-item">
-            <div style="width:100%;height:100%;background:linear-gradient(135deg,#2a2a2a,#1a1a1a);display:flex;align-items:center;justify-content:center;">
-                <i class="fas fa-lightbulb" style="font-size:3rem;color:var(--pink);opacity:0.5;"></i>
-            </div>
-            <div class="overlay"><i class="fas fa-search-plus"></i></div>
-        </div>
-        <div class="gallery-item">
-            <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a1a,#333);display:flex;align-items:center;justify-content:center;">
-                <i class="fas fa-car-side" style="font-size:3rem;color:var(--pink);opacity:0.5;"></i>
-            </div>
-            <div class="overlay"><i class="fas fa-search-plus"></i></div>
-        </div>
-        <div class="gallery-item">
-            <div style="width:100%;height:100%;background:linear-gradient(135deg,#333,#1a1a1a);display:flex;align-items:center;justify-content:center;">
-                <i class="fas fa-gem" style="font-size:3rem;color:var(--pink);opacity:0.5;"></i>
-            </div>
-            <div class="overlay"><i class="fas fa-search-plus"></i></div>
-        </div>
-        <div class="gallery-item">
-            <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a1a,#2a2a2a);display:flex;align-items:center;justify-content:center;">
-                <i class="fas fa-star" style="font-size:3rem;color:var(--pink);opacity:0.5;"></i>
-            </div>
-            <div class="overlay"><i class="fas fa-search-plus"></i></div>
-        </div>
-        <div class="gallery-item">
-            <div style="width:100%;height:100%;background:linear-gradient(135deg,#2a2a2a,#1a1a1a);display:flex;align-items:center;justify-content:center;">
-                <i class="fas fa-award" style="font-size:3rem;color:var(--pink);opacity:0.5;"></i>
-            </div>
-            <div class="overlay"><i class="fas fa-search-plus"></i></div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section class="contact" id="contact">
-    <div class="section-title fade-in">
-        <h2>Свяжитесь <span>с нами</span></h2>
-        <div class="line"></div>
-        <p>Запишитесь на услугу или задайте вопрос</p>
-    </div>
-    <div class="contact-grid">
-        <div class="contact-info fade-in">
-            <h3>Контактная информация</h3>
-            <div class="contact-item">
-                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                <div class="text">
-                    <strong>Адрес</strong>
-                    г. Борисов
-                </div>
-            </div>
-            <div class="contact-item">
-                <div class="icon"><i class="fas fa-phone"></i></div>
-                <div class="text">
-                    <strong>Телефон</strong>
-                    +375 (XX) XXX-XX-XX
-                </div>
-            </div>
-            <div class="contact-item">
-                <div class="icon"><i class="fas fa-clock"></i></div>
-                <div class="text">
-                    <strong>Режим работы</strong>
-                    Пн-Сб: 9:00 - 20:00
-                </div>
-            </div>
-            <div class="contact-item">
-                <div class="icon"><i class="fas fa-envelope"></i></div>
-                <div class="text">
-                    <strong>Email</strong>
-                    info@vv-detailing.by
-                </div>
-            </div>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
-        </div>
-        <div class="contact-form fade-in">
-            <h3>Запись на услугу</h3>
-            <form onsubmit="handleSubmit(event)">
-                <div class="form-group">
-                    <input type="text" placeholder="Ваше имя" required>
-                </div>
-                <div class="form-group">
-                    <input type="tel" placeholder="Телефон" required>
-                </div>
-                <div class="form-group">
-                    <select required>
-                        <option value="" disabled selected>Выберите услугу</option>
-                        <option>Химчистка салона</option>
-                        <option>Полировка фар</option>
-                        <option>Тонировка стёкол</option>
-                        <option>Другое</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Комментарий (необязательно)"></textarea>
-                </div>
-                <button type="submit" class="submit-btn">ОТПРАВИТЬ ЗАЯВКУ</button>
-            </form>
-        </div>
-    </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <div class="footer-logo">
-        <span class="v">V</span>&<span class="v">V</span> DETAILING STUDIO
-    </div>
-    <p>&copy; 2026 V&V Detailing Studio, Борисов. Все права защищены.</p>
-</footer>
-
-<script>
-    // Header scroll effect
-    window.addEventListener('scroll', () => {
-        const header = document.getElementById('header');
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
-    });
-
-    // Mobile menu
-    function toggleMenu() {
-        document.getElementById('mobileMenu').classList.toggle('active');
-    }
-
-    // Fade in animation on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            }
-        });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
-    // Form submit
-    function handleSubmit(e) {
-        e.preventDefault();
-        alert('Спасибо! Ваша заявка отправлена. Мы свяжемся с вами в ближайшее время.');
-        e.target.reset();
-    }
-</script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V&V Detailing Studio - Борисов</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --pink: #e91e8c; --pink-light: #ff2d9b; --black: #0a0a0a; --dark: #111; --dark-gray: #1a1a1a; --gray: #2a2a2a; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Montserrat', sans-serif; background: var(--black); color: #fff; }
+        header { position: fixed; top: 0; width: 100%; z-index: 1000; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(233,30,140,0.2); }
+        nav { max-width: 1200px; margin: 0 auto; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 900; text-decoration: none; color: #fff; }
+        .logo .v { color: var(--pink); }
+        .logo .detailing { font-weight: 300; font-size: 0.9rem; letter-spacing: 3px; display: block; margin-top: -2px; }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: #ccc; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--pink); }
+        .burger { display: none; cursor: pointer; font-size: 1.5rem; color: var(--pink); background: none; border: none; }
+        .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; background: var(--black); }
+        .hero::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at 50% 50%, rgba(233,30,140,0.08) 0%, transparent 50%); animation: pulse 8s ease-in-out infinite; }
+        @keyframes pulse { 0%,100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.1); opacity: 1; } }
+        .hero-content { position: relative; z-index: 2; }
+        .hero-logo-circle { width: 280px; height: 280px; border: 2px solid rgba(233,30,140,0.3); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 2rem; position: relative; }
+        .hero-logo-circle::before { content: ''; position: absolute; top: -2px; left: -2px; right: -2px; bottom: -2px; border-radius: 50%; border: 2px solid transparent; border-top-color: var(--pink); animation: rotateBorder 3s linear infinite; }
+        @keyframes rotateBorder { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .hero-logo-circle .v-v { font-size: 3.5rem; font-weight: 900; line-height: 1; }
+        .hero-logo-circle .v-v .v { color: var(--pink); }
+        .hero-logo-circle .v-v .amp { color: #fff; font-weight: 300; }
+        .hero-logo-circle .detailing-text { font-size: 1.8rem; font-weight: 300; letter-spacing: 5px; margin-top: 0.5rem; }
+        .hero-logo-circle .studio-text { font-size: 0.9rem; letter-spacing: 8px; color: #aaa; margin-top: -5px; }
+        .hero-logo-circle .borisov-text { font-size: 1.2rem; color: var(--pink); letter-spacing: 4px; margin-top: 0.5rem; font-weight: 600; }
+        .hero h1 { font-size: 1.2rem; font-weight: 300; letter-spacing: 6px; color: #aaa; margin-bottom: 2rem; }
+        .hero-btn { display: inline-block; padding: 1rem 3rem; background: var(--pink); color: #fff; text-decoration: none; font-weight: 600; font-size: 1rem; border-radius: 50px; transition: all 0.3s; border: 2px solid var(--pink); letter-spacing: 2px; }
+        .hero-btn:hover { background: transparent; color: var(--pink); transform: translateY(-3px); box-shadow: 0 10px 30px rgba(233,30,140,0.3); }
+        section { padding: 6rem 2rem; }
+        .section-title { text-align: center; margin-bottom: 4rem; }
+        .section-title h2 { font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; }
+        .section-title h2 span { color: var(--pink); }
+        .section-title p { color: #888; font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+        .section-title .line { width: 60px; height: 3px; background: var(--pink); margin: 1rem auto; border-radius: 2px; }
+        .about { background: var(--dark); }
+        .about-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+        .about-text h3 { font-size: 1.8rem; margin-bottom: 1.5rem; }
+        .about-text h3 span { color: var(--pink); }
+        .about-text p { color: #aaa; line-height: 1.8; margin-bottom: 1rem; }
+        .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        .stat-card { background: var(--dark-gray); border: 1px solid var(--gray); border-radius: 12px; padding: 2rem; text-align: center; transition: all 0.3s; }
+        .stat-card:hover { border-color: var(--pink); transform: translateY(-5px); box-shadow: 0 10px 30px rgba(233,30,140,0.1); }
+        .stat-card .number { font-size: 2.5rem; font-weight: 900; color: var(--pink); }
+        .stat-card .label { color: #888; font-size: 0.85rem; margin-top: 0.5rem; }
+        .services { background: var(--black); }
+        .services-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        .service-card { background: var(--dark); border: 1px solid var(--gray); border-radius: 16px; padding: 3rem 2rem; text-align: center; transition: all 0.4s ease; position: relative; overflow: hidden; }
+        .service-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--pink), var(--pink-light)); transform: scaleX(0); transition: transform 0.4s; }
+        .service-card:hover::before { transform: scaleX(1); }
+        .service-card:hover { border-color: rgba(233,30,140,0.3); transform: translateY(-10px); box-shadow: 0 20px 40px rgba(233,30,140,0.1); }
+        .service-icon { width: 80px; height: 80px; background: rgba(233,30,140,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; transition: all 0.3s; }
+        .service-card:hover .service-icon { background: var(--pink); transform: scale(1.1); }
+        .service-icon i { font-size: 2rem; color: var(--pink); transition: color 0.3s; }
+        .service-card:hover .service-icon i { color: #fff; }
+        .service-card h3 { font-size: 1.3rem; margin-bottom: 1rem; font-weight: 700; }
+        .service-card p { color: #888; line-height: 1.7; font-size: 0.95rem; margin-bottom: 1.5rem; }
+        .service-card .price { font-size: 1.5rem; font-weight: 700; color: var(--pink); }
+        .service-card .price span { font-size: 0.85rem; color: #666; font-weight: 400; }
+        .gallery { background: var(--dark); }
+        .gallery-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+        .gallery-item { position: relative; border-radius: 12px; overflow: hidden; aspect-ratio: 4/3; background: var(--gray); cursor: pointer; }
+        .gallery-item .placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+        .gallery-item .placeholder i { font-size: 3rem; color: var(--pink); opacity: 0.5; }
+        .contact { background: var(--black); }
+        .contact-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+        .contact-info h3 { font-size: 1.5rem; margin-bottom: 2rem; }
+        .contact-item { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+        .contact-item .icon { width: 50px; height: 50px; background: rgba(233,30,140,0.1
